@@ -1,8 +1,13 @@
-//import './style.css'
+import style from './style.module.css'
+
+
+import Contact from "../contact/contact";
 
 export default function Main() {
     
     return(
-        <div>main</div>
+        <div className={style.main}>
+            <Contact/>
+        </div>
     )
 }

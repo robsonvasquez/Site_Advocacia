@@ -1,20 +1,22 @@
-import './style.css'
+import style from'./style.module.css'
+
+import { FaFacebookSquare, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 export default function topBar() {
     
     return(
 
-        <nav>
+        <nav className={style.nav}>
             <ul>
                 <li>Home</li>
                 <li>Especialidade</li>
                 <li>Sobre</li>
                 <li>Contato</li>
             </ul>
-            <ul>
-                <li>face</li>
-                <li>insta</li>
-                <li>twitter</li>
+            <ul className={style.icon}>
+                <li><FaFacebookSquare/></li>
+                <li><FaLinkedin/></li>
+                <li><FaTwitter/></li>
             </ul>
         </nav>
     )
