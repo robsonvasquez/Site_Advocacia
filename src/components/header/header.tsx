@@ -25,7 +25,7 @@ export default function Header() {
                         <span className={style.icon}>
                             <FaWhatsapp/>
                         </span>
-                        55 98748248
+                        (55) 98748248
                     </div>
                 </li>
             </ul>

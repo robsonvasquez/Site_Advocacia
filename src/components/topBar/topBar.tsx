@@ -9,7 +9,8 @@ export default function topBar() {
         <nav className={style.nav}>
             <ul>
                 <li>Home</li>
-                <li>Especialidade</li>
+                <li>Área de Atuação</li>
+                <li>Profissionais</li>
                 <li>Sobre</li>
                 <li>Contato</li>
             </ul>

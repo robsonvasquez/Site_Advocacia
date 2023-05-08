@@ -1,0 +1,28 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 170, 86);
+}
+
+.about div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 50%;
+    background-color: white;
+    border-radius: 5rem 0;
+}
+
+.about div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+    width: auto;
+    text-align: center;
+}
