@@ -1,28 +1,36 @@
+.about_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 50, 50);
+    color: rgb(61,61,61);
+}
+
 .about{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(201, 170, 86);
-}
-
-.about div{
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    width: 50%;
+    width: 60%;
     background-color: white;
-    border-radius: 5rem 0;
+    margin-bottom: 5rem;
 }
 
-.about div div{
+.title{
+    color: rgb(201, 170, 86);
+    font-size: 2rem;
+    font-style: italic;
+    margin-top: 2rem;
+}
+
+.about_text{
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    margin: 1rem;
+    margin: 1rem 5rem;
     width: auto;
-    text-align: center;
 }

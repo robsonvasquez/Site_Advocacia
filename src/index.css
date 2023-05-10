@@ -1,4 +1,8 @@
 *{  
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-family:'droid-serif-w01-regular','droid-serif-w02-regular','droid-serif-w10-regular',serif;
     margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
 }

@@ -6,12 +6,12 @@ export default function Cape() {
 
     return(
 
-        <div className={style.cape}>
+        <section className={style.cape}>
             <img className={style.img} src={Img} alt=""/>
             <h1 className={style.title}>
                 EXPERIÊNCIA, CREDIBILIDADE 
                 <p> E TRANSPARÊNCIA</p>
             </h1>
-        </div>
+        </section>
     )
 }

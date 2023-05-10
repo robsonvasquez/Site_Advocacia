@@ -4,7 +4,7 @@ import Img from '../../assets/dama.png'
 
 export default function Header() {
     return(
-        <div>
+        <header>
             <ul className={style.header}>
                 <li>
                     <div className={style.icons}>
@@ -29,6 +29,6 @@ export default function Header() {
                     </div>
                 </li>
             </ul>
-        </div>
+        </header>
     )
 }
