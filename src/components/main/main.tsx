@@ -4,6 +4,7 @@ import Cape from '../cape/cape'
 import About from '../about/about';
 import Contact from "../contact/contact";
 import Location from '../location/location';
+import Area from '../area/area';
 
 export default function Main() {
     
@@ -12,6 +13,7 @@ export default function Main() {
             <Cape/>
             <About/>
             <Location/>
+            <Area/>
             <Contact/>
         </main>
     )

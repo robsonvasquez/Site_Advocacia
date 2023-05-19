@@ -1,0 +1,13 @@
+.area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: rgb(201, 170, 86);
+    font-size: 2rem;
+    font-style: italic;
+    margin-top: 2rem;
+}
