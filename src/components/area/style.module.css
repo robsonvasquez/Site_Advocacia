@@ -1,13 +1,33 @@
+.area_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 170, 86);
+    color: rgb(50, 50, 50);;
+}
+
 .area{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 3rem;
+    width: 60%;
+    padding: 1rem 1rem 2rem 1rem;
 }
 
 .title{
-    color: rgb(201, 170, 86);
+    text-align: center;
     font-size: 2rem;
     font-style: italic;
     margin-top: 2rem;
 }
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+

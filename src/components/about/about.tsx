@@ -41,7 +41,7 @@ export default function About() {
                         </p>
                     </div>
 
-                    <Card img={Img} label='Alexane Pires Roque' sub_label='Fundadora'/>
+                    <Card img={Img} label='Alexane Pires Roque' sub_label='Fundadora' font='1rem' width='180px'/>
                 </div>
             </Fade>
         </section>
